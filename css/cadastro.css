@@ -1,0 +1,64 @@
+body{
+    background-image: url(../img/cinema.png);
+}
+.cabeçalho{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+    .cabeçalho > img{
+        height: 60px;
+    }
+    .menu{
+        display: flex;
+    }
+    .menu > li{
+        height: 20px;
+        display: flex;
+        align-items: center;
+    }
+    .menu > li:hover{
+        background-color: orange;
+    }
+    .menu > li > a{
+        color: white;
+        text-decoration: none;
+        text-shadow: 2px 2px black ;
+        padding-left: 10px ;
+        padding-right: 10px ;
+        font-weight: 600;
+    }
+.login{ background-color: aliceblue;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border: 5px solid orange;
+    padding: 20px;
+}
+.parte-2{
+   text-align: center;
+    margin: 20px;
+}
+h1{
+    text-align: center;
+}
+.botão{
+    text-align: center;
+}
+.botão-1{
+   margin: 20px;
+    padding: 2px 2px ;
+    background-color: orange;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px black}
+.botão-2{
+    padding: 2px 2px ;
+    background-color: orange;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px black}

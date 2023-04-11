@@ -1,3 +1,96 @@
+
+
 body{
-    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color:rgb(255, 255, 255);
 }
+.cabeçalho{
+background-color: black;
+display: flex;
+justify-content: space-between;
+padding-left: 20px;
+padding-right: 20px;
+}
+.cabeçalho > img{
+    height: 60px;
+}
+.menu{
+    display: flex;
+}
+.menu > li{
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+.menu > li:hover{
+    background-color: orange;
+}
+.menu > li > a{
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px black ;
+    padding-left: 10px ;
+    padding-right: 10px ;
+    font-weight: 600;
+}
+.foto{
+    background-image: url(../img/filme.png);
+    height: 400px;
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 3px 10px orange ;
+ }
+ .foto > h1{
+     color: rgb(255, 255, 255);
+     text-shadow: 1px 1px 1px rgb(0, 0, 0);
+     margin-bottom:30px ;
+ }
+ .botao{
+     color: white;
+     text-decoration: none;
+     border: 2px solid white;
+     padding: 10px;
+     border-radius: 3px;
+     background-color: rgba(0, 0, 0, 0.5);
+ }
+ .botao:hover{
+     background-color: white;
+ }
+ h2{
+     text-align: center;
+     color: rgb(0, 0, 0);
+ }
+ hr{
+     background: linear-gradient(to right, red, yellow);
+     height: 3px;
+     margin: 3px;
+     margin-top: 3px;
+     border: 0
+     
+ }
+ h3{
+     color: black;
+     text-align: center;
+ }
+ .email-2{
+    text-align: center;
+    box-shadow: 2px 2px orange;
+ }
+ .email{
+    text-align: center;
+    margin: 20px;
+ }
+ .botão-1{
+    margin: 20px;
+     padding: 2px 2px ;
+     background-color: orange;
+     text-decoration: none;
+     color: white;
+     border-radius: 4px;
+ }
+

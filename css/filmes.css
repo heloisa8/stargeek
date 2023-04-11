@@ -1,0 +1,46 @@
+body{
+    background-image: url(../img/s.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cabeçalho{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+    .cabeçalho > img{
+        height: 60px;
+    }
+    .menu{
+        display: flex;
+    }
+    .menu > li{
+        height: 20px;
+        display: flex;
+        align-items: center;
+    }
+    .menu > li:hover{
+        background-color: orange;
+    }
+    .menu > li > a{
+        color: white;
+        text-decoration: none;
+        text-shadow: 2px 2px black ;
+        padding-left: 10px ;
+        padding-right: 10px ;
+        font-weight: 600;
+    }
+    .imagem{
+        display: flex;
+        overflow: scroll;
+    }
+    .imagem::-webkit-scrollbar{
+        display: none; 
+    }
+    h1{
+        text-align: center;
+        text-shadow: 2px 2px 2px black;
+        color: white;
+    }
