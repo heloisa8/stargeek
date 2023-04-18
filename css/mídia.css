@@ -1,5 +1,5 @@
 body{
-    background-image: url(../img/img2.png);
+background-color: darkred;
 }
 .cabeçalho{
     background-color: black;
@@ -20,7 +20,7 @@ body{
         align-items: center;
     }
     .menu > li:hover{
-        background-color: orange;
+        background-color: rgb(255, 0, 0);
     }
     .menu > li > a{
         color: white;
@@ -34,7 +34,7 @@ body{
     width: 350px;
     height: 350px;
     margin: 0 auto;
-    border: 5px solid orange;
+    border: 5px solid rgb(255, 0, 0);
     padding: 20px;
 }
 .parte-2{
@@ -53,14 +53,14 @@ h2{
 .botão-1{
    margin: 20px;
     padding: 2px 2px ;
-    background-color: orange;
+    background-color: rgb(255, 0, 0);
     text-decoration: none;
     color: white;
     border-radius: 4px;
     box-shadow: 2px 2px 5px black}
 .botão-2{
     padding: 2px 2px ;
-    background-color: orange;
+    background-color: rgb(255, 0, 0);
     text-decoration: none;
     color: white;
     border-radius: 4px;

@@ -17,7 +17,7 @@
         align-items: center;
     }
     .menu > li:hover{
-        background-color: orange;
+        background-color: rgb(255, 0, 0);
     }
     .menu > li > a{
         color: white;
@@ -28,13 +28,14 @@
         font-weight: 600;
     }
     body{
-        background-image: url(../img/s.png);
-        background-repeat: no-repeat;
+background-color: darkred;        background-repeat: no-repeat;
         background-size: cover;
     }
     .imagem{
         display: flex;
         overflow: scroll;
+        box-shadow: 5px 5px 5px red;
+
     }
     .imagem::-webkit-scrollbar{
         display: none; 

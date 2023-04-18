@@ -1,6 +1,5 @@
 body{
-    background-image: url(../img2/p.png);
-    background-repeat: no-repeat;
+background-color: darkred;    background-repeat: no-repeat;
     background-size: cover;
 }
 .cabeçalho{
@@ -22,7 +21,7 @@ body{
         align-items: center;
     }
     .menu > li:hover{
-        background-color: orange;
+        background-color: rgb(255, 0, 0);
     }
     .menu > li > a{
         color: white;
@@ -38,7 +37,7 @@ h1{
 }
 h2{
     color: rgb(255, 255, 255);
-    text-shadow: 2px 2px orange; 
+    text-shadow: 2px 2px rgb(255, 0, 0); 
     text-align: center;
 }
 .escrita{
@@ -46,7 +45,7 @@ h2{
 }
 .botão-1{
     padding: 2px 2px ;
-    background-color: orange;
+    background-color: rgb(255, 0, 0);
     text-decoration: none;
     color: white;
     border-radius: 4px;

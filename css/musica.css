@@ -1,3 +1,6 @@
+body{
+background-color: darkred;
+}
 .cabeçalho{
     background-color: black;
     display: flex;
@@ -27,8 +30,6 @@
         padding-right: 10px ;
         font-weight: 600;
     }
-    body{background-color: darkred;
-    }
     h1{
         text-align: center;
         text-shadow: 2px 2px 2px black;
@@ -38,6 +39,7 @@
         display: flex;
         overflow: scroll;
         box-shadow: 5px 5px 5px red;
+
     }
     .imagem::-webkit-scrollbar{
         display: none; 

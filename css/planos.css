@@ -17,7 +17,7 @@
         align-items: center;
     }
     .menu > li:hover{
-        background-color: orange;
+        background-color: rgb(255, 0, 0);
     }
     .menu > li > a{
         color: white;
@@ -28,8 +28,7 @@
         font-weight: 600;
     }
     body{
-        background-image: url(../img2/fundo.png);
-        background-repeat: no-repeat;
+background-color: darkred;        background-repeat: no-repeat;
         background-size: cover;
     }
     h1{

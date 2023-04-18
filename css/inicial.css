@@ -1,0 +1,96 @@
+.cabeçalho{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+    .cabeçalho > img{
+        height: 60px;
+    }
+    .menu{
+        display: flex;
+    }
+    .menu > li{
+        height: 20px;
+        display: flex;
+        align-items: center;
+    }
+    .menu > li:hover{
+        background-color: rgb(255, 0, 0);
+    }
+    .menu > li > a{
+        color: white;
+        text-decoration: none;
+        text-shadow: 2px 2px black ;
+        padding-left: 10px ;
+        padding-right: 10px ;
+        font-weight: 600;
+    }
+    .foto{
+  
+        height: 400px;
+        background-size: cover;
+        background-position: top center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/61e79073-50cf-4f7b-9a23-73290e6f7dca/828332cb-06fb-4098-bf3d-2934bf43dfc4/BR-pt-20230410-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+     }
+     .foto > h1{
+         color: white;
+         text-shadow: 1px 1px 1px black;
+         margin-bottom:30px ;
+     }
+     .foto >h2{
+        color: white;
+     }
+     body{
+        background-color: black;
+     }
+     .card-imagem {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .card-imagem > img {
+        width: 50%;
+        background-image: url(https://i.pinimg.com/originals/50/e7/1d/50e71de1ee9f78182fea8a23a0a92bd8.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .card-imagem > div {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+       color: white;
+       text-shadow: 2px 2px 2px red;
+    }
+ hr{
+    color: red;
+ }
+ .card-imagem1 {
+    display: flex;
+    margin-bottom: 20px;
+}
+.card-imagem1 > img {
+    width: 50%;
+    background-image: url(https://i.pinimg.com/originals/da/9d/76/da9d76c149992a0b033c76de5968582e.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-imagem1 > div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+   color: white;
+   text-shadow: 2px 2px 2px red;
+}
+
+ 

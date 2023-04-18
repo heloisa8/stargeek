@@ -1,7 +1,5 @@
 body{
-    background-image: url(../img/s.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+background-color: darkred 
 }
 .cabeçalho{
     background-color: black;
@@ -22,7 +20,7 @@ body{
         align-items: center;
     }
     .menu > li:hover{
-        background-color: orange;
+        background-color: rgb(255, 0, 0);
     }
     .menu > li > a{
         color: white;
@@ -35,6 +33,8 @@ body{
     .imagem{
         display: flex;
         overflow: scroll;
+        box-shadow: 5px 5px 5px red;
+
     }
     .imagem::-webkit-scrollbar{
         display: none; 
@@ -44,3 +44,24 @@ body{
         text-shadow: 2px 2px 2px black;
         color: white;
     }
+    .cinderela:hover{
+        content: url(https://i.pinimg.com/originals/27/98/c6/2798c6fee1e065e810a576234b545580.gif);
+    }
+    .bear:hover{
+        content: url(https://media2.giphy.com/media/Izy9JPexCeOERHJ3As/giphy.gif);
+    }
+    .you:hover{
+        content: url(https://media.tenor.com/QPlDz9V-4W0AAAAC/you-show-joe-goldberg.gif);
+    }
+    .pachinko:hover{
+content: url(https://media2.giphy.com/media/fRFGgIJ1BZVY2hDwfJ/giphy.gif)
+    }
+    .megan:hover{
+        content: url(https://media2.giphy.com/media/NJD2gs0QZkt6ntA275/200w.gif?cid=6c09b952sx2fqbgy1a3msqw2e529f5p89apv7hfjv3dphqgw&rid=200w.gif&ct=g)
+            }
+            .orphan:hover{
+                content: url(https://i.pinimg.com/originals/cb/97/3b/cb973b7c7d75041b6ee8bda51ba540c6.gif)
+            }
+    .it:hover{
+        content:url(https://i.gifer.com/origin/82/82cb4dffc43ad427edbe104baada5a86.gif)
+    }        

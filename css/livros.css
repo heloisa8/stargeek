@@ -1,6 +1,8 @@
 .imagem{
     display: flex;
     overflow: scroll;
+    box-shadow: 5px 5px 5px red;
+
 }
 .imagem::-webkit-scrollbar{
     display: none; 
@@ -10,9 +12,7 @@ h1{
     text-shadow: 2px 2px 2px black;
     color: white;
 }body{
-    background-image: url(../img/s.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: darkred;
 }
 .cabeçalho{
     background-color: black;
@@ -33,7 +33,7 @@ h1{
         align-items: center;
     }
     .menu > li:hover{
-        background-color: orange;
+        background-color: rgb(255, 0, 0);
     }
     .menu > li > a{
         color: white;
